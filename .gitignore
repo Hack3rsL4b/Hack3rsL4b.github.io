@@ -1,0 +1,14 @@
+# Editor-folds
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+.ionide
+.DS_Store
+
+common/sql.sql

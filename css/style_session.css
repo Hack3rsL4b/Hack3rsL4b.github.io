@@ -1,0 +1,191 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&family=Tourney&display=swap");
+
+/* Globales */
+:root {
+    --primario: #282c35;
+    --secundario: #dbd3d8;
+    --azul: #004ba8;
+    --celeste: #66a8b6;
+    --fondo-actual: #11101d;
+    --header: #181c24;
+    --background: #282c35;
+    --hover: #484f5f;
+    --lightgrey: #dbd3d8;
+    --color-title-buttons: #00d4eb;
+    --title: "Audiowide", cursive;
+    --text: "Poppins", sans-serif;
+    --console: "Roboto Mono", monospace;
+    --tourney: "Tourney", cursive;
+    --verde: #00a82d;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+button {
+    font-size: 1.35rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--text);
+    font-size: 12px;
+}
+body {
+    height: 100%;
+    background-color: var(--background);
+}
+.contenedorflex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_session {
+    display: grid;
+    grid-template-columns: 37rem 37rem;
+}
+
+.group1 {
+    width: 37rem;
+    height: 45.5rem;
+    background-image: url(../img/fondo.png);
+    border-radius: 1rem 0 0 1rem;
+    float: right;
+}
+
+.atras img {
+    margin: 3rem 0 0 3rem;
+    width: 2rem;
+    float: left;
+}
+.atras {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.toogle-btnatras {
+    margin: 3rem 0 0 1rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    float: left;
+}
+
+.group2 {
+    width: 37rem;
+    height: 45.5rem;
+    position: relative;
+    background-color: #ffff;
+    padding: 0.5rem;
+    border-radius: 0 1rem 1rem 0;
+    overflow: hidden;
+    float: right;
+}
+
+.btngroup {
+    width: 25rem;
+    margin: 3rem auto 0 auto;
+    position: relative;
+    box-shadow: 0 0 2rem 0.9rem #e0e0e0;
+    border-radius: 3rem;
+}
+
+.toogle-btn {
+    padding: 1rem 2.2rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#elegir {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 13rem;
+    height: 100%;
+    background: linear-gradient(to right, #00d4eb, #00a82daf);
+    border-radius: 3rem;
+    transition: 0.8s;
+}
+
+.input-group {
+    top: 10rem;
+    position: absolute;
+    width: 28rem;
+    transition: 0.8s;
+}
+
+.input-group1 {
+    top: 8rem;
+    position: absolute;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.input-field {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0.125rem solid var(--background);
+    outline: none;
+    background: transparent;
+}
+
+.logo {
+    margin-top: -2rem;
+    text-align: center;
+}
+
+.logo img {
+    width: 15rem;
+}
+.submit-btn {
+    width: 85%;
+    padding: 0.625rem 1.875rem;
+    cursor: pointer;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    background: linear-gradient(to right, #00d4eb, #00a82daf);
+    border: 0rem;
+    outline: none;
+    border-radius: 1.875rem;
+}
+.sbtn {
+    margin: 1rem auto 0 auto;
+}
+
+.check-box {
+    margin: 1.875rem 0.625rem 1.875rem 0;
+}
+
+.span {
+    color: #11101d;
+    font-size: 1.2rem;
+    bottom: 6.4rem;
+    position: absolute;
+}
+
+#login {
+    left: 5rem;
+}
+
+#registrar {
+    left: 43rem;
+}
