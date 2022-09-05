@@ -11,7 +11,6 @@
     --header: #181c24;
     --background: #282c35;
     --hover: #484f5f;
-    --lightgrey: #dbd3d8;
     --color-title-buttons: #00d4eb;
     --title: "Audiowide", cursive;
     --text: "Poppins", sans-serif;
@@ -721,7 +720,9 @@ li {
 .foto {
     border-radius: 50%;
     width: 15rem;
+    height: 15rem;
     margin: 3rem 5rem 3rem 0;
+    object-fit: cover;
 }
 
 .table_int {
@@ -783,9 +784,9 @@ li {
     color: var(--secundario);
 }
 
-/* Enlcances */
+/* Enlaces */
 .space {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .enlace {
@@ -793,13 +794,22 @@ li {
     position: inherit;
     display: block;
     text-align: center;
-    margin-bottom: 3rem;
+}
+
+.news-date {
+    color: gray;
+    font-size: 1.5rem;
 }
 
 .img-link {
     width: 15rem;
     height: 15rem;
     object-fit: cover;
+}
+
+.img-tools {
+    width: 18rem;
+    object-fit: contain;
 }
 
 .horizontal-line {
